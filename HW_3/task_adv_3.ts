@@ -1,8 +1,8 @@
 /// Advanced 3
 
-let a = "#";
+let a = "";
 
 while (a.length <= 7) {
-  console.log(a + "\n");
   a += "#";
+  console.log(a);
 }

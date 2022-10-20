@@ -1,15 +1,15 @@
 /// Task 11
 const readline = require("readline-sync");
 let number;
+let toType = "";
 do {
+  toType = "";
   number = readline.question("Please, type a number :");
-  if (number % 3 === 0 && number % 5 === 0) {
-    console.log("FizBuz");
-  } else if (number % 5 === 0) {
-    console.log("Fiz");
-  } else if (number % 3 === 0) {
-    console.log("Buz");
-  } else {
-    console.log("Please, type another number");
+  if (number % 5 === 0) {
+    toType += "Fiz";
   }
-} while (number <= 100);
+  if (number % 3 === 0) {
+    toType += "Buz";
+  }
+  console.log(toType);
+} while (number != -1);
