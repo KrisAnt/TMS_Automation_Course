@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "@types/node": "^18.8.4",
+    "prettier": "^2.7.1",
+    "readline-sync": "^1.4.10"
   },
   "dependencies": {
     "ts-node": "^10.9.1"
