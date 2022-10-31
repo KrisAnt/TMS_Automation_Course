@@ -19,7 +19,8 @@ function IsEqual(student1: any, student2: any) {
     const prop = student1Key[i];
     if (student1[prop] !== student2[prop]) {
       return false;
-    } else return true;
+    }
   }
+  return true;
 }
 console.log(IsEqual(student1, student2));
