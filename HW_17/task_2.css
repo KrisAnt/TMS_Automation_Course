@@ -1,0 +1,32 @@
+table {
+  border: 1px solid white;
+  table-layout: inherit;
+  width: 40%;
+  margin-bottom: 0px;
+}
+table th {
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  padding: 2px;
+  background: black;
+  border: 1px solid white;
+  width: 30px;
+}
+table td {
+  padding: 2px 5px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+caption {
+  color: black;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+table tbody tr:nth-child(odd) {
+  background: #cbcbcb;
+}
+table tbody tr:nth-child(even) {
+  background: #e7e7e7;
+}
