@@ -1,0 +1,5 @@
+{
+    "extension" : ["ts"],
+    "spec":["HW_18/*.spec.ts"],
+    "require": ["ts-node/register"]
+}
