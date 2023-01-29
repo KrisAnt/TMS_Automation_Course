@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --config mocharc.json",
+    "test": "npx playwright test",
+    "head": "npx playwright test --headed",
     "format": "prettier --write --config .prettierrc **/*.ts"
+
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@playwright/test": "^1.29.2",
     "@types/node": "^18.11.18",
     "prettier": "^2.7.1",
     "readline-sync": "^1.4.10"

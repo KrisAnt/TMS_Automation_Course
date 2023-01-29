@@ -1,4 +1,4 @@
-import { BaseElement } from "../../framework/base-element";
+import { BaseElement } from "../../framework/web-elements/base-element";
 import { DriverService } from "../../framework/helpers/driver-service";
 import { By } from "selenium-webdriver";
 
