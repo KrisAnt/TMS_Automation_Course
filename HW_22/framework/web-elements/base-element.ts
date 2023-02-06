@@ -1,5 +1,5 @@
 import { By, ThenableWebDriver, WebDriver } from "selenium-webdriver";
-import { DriverService } from "./helpers/driver-service";
+import { DriverService } from "../helpers/driver-service";
 
 export class BaseElement {
   protected driver:ThenableWebDriver = DriverService.driver;
