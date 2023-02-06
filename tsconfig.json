@@ -1,8 +1,0 @@
-{
-    "compilerOptions": {
-        "types": ["node","chai","jest"],
-        "esModuleInterop": true,
-        "lib": ["ES2021.String"],
-        "target": "ES5",
-    }
-}
