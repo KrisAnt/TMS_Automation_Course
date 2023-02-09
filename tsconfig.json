@@ -1,8 +1,12 @@
 {
-    "compilerOptions": {
-        "types": ["node","chai","jest"],
-        "esModuleInterop": true,
-        "lib": ["ES2021.String"],
-        "target": "ES5",
-    }
+  "compilerOptions": {
+    "module": "CommonJS",
+    "types": [
+      "node",
+      "@wdio/globals/types",
+      "expect-webdriverio",
+      "@wdio/cucumber-framework"
+    ],
+    "target": "es2022"
+  }
 }
